@@ -1,0 +1,21 @@
+.wcpi-wrap{max-width:1400px}
+.wcpi-grid{display:grid;gap:20px;margin:20px 0}
+.wcpi-two-col{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.wcpi-summary-grid{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.wcpi-card{background:#fff;border:1px solid #dcdcde;border-radius:12px;padding:20px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.wcpi-card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.wcpi-card h2{margin:0;font-size:16px}
+.wcpi-summary-card{display:flex;flex-direction:column;gap:8px}
+.wcpi-summary-card .wcpi-label{color:#50575e;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.wcpi-summary-card .wcpi-value{font-size:28px;line-height:1.15}
+.wcpi-hint{color:#646970;font-size:12px}
+.wcpi-positive,.wcpi-positive-card .wcpi-value{color:#046b3b}
+.wcpi-negative,.wcpi-negative-card .wcpi-value{color:#b32d2e}
+.wcpi-filter-bar{display:flex;gap:14px;align-items:end;flex-wrap:wrap}
+.wcpi-filter-bar label{display:flex;flex-direction:column;gap:6px;min-width:160px}
+.wcpi-table th,.wcpi-table td{vertical-align:top}
+.wcpi-list{margin:0;padding-left:18px}
+.wcpi-list li{margin-bottom:8px}
+.wcpi-stack{display:flex;flex-wrap:wrap;gap:10px}
+.wcpi-chart-wrap{position:relative;width:100%;min-height:250px}
+@media (max-width:782px){.wcpi-filter-bar label{width:100%}}
