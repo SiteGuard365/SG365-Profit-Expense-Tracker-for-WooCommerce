@@ -1,5 +1,5 @@
 === SG365 Profit & Expense Tracker for WooCommerce ===
-Contributors: openai
+Author : Site Guard 365
 Tags: woocommerce, profit, analytics, expenses, cost of goods
 Requires at least: 6.4
 Tested up to: 6.8
